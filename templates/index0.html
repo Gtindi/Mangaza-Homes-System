@@ -1,0 +1,187 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Mangaza Homes</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Mangaza Homes" name="keywords">
+        <meta content="Mangaza Homes" name="description">
+
+        <!-- Favicon -->
+        <link href="#" rel="icon">
+        <link href="#" rel="Mangaza-Icon">
+
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Nunito:600,700" rel="stylesheet"> 
+        
+        <!-- CSS Libraries -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="{% static 'lib/animate/animate.min.css' %}" rel="stylesheet">
+        <link href="{% static 'lib/owlcarousel/assets/owl.carousel.min.css' %}" rel="stylesheet">
+        <link href="{% static 'lib/flaticon/font/flaticon.css' %}" rel="stylesheet">
+        <link href="{% static 'lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css' %}" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="{% static 'css/style.css' %}" rel="stylesheet">
+    </head>
+
+    <body>
+        <!-- Nav Bar Start -->
+        {% include 'homeNavbar.html' %}
+        <!-- Nav Bar End -->
+
+
+        <!-- Carousel Start -->
+        <div class="carousel">
+            <div class="container-fluid">
+                <div class="owl-carousel">
+                    <div class="carousel-item">
+                        <div class="carousel-img">
+                            <img src="/static/img/carousel-1.jpg" alt="Image">
+                        </div>
+                        <div class="carousel-text">
+                            <h1>Buy & Rent <span>Amazing</span> Houses</h1>
+                            <p></p>
+                            <div class="carousel-btn">
+                                <a class="btn custom-btn" href="">View Homes</a>
+                                <a class="btn custom-btn" href="">Book Place</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-img">
+                            <img src="/static/img/carousel-2.jpg" alt="Image">
+                        </div>
+                        <div class="carousel-text">
+                            <h1>Experience <span>The Best</span> Adventures</h1>
+                            <p></p>
+                            <div class="carousel-btn">
+                                <a class="btn custom-btn" href="">View Homes</a>
+                                <a class="btn custom-btn" href="">Book Place</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-img">
+                            <img src="/static/img/carousel-3.jpg" alt="Image">
+                        </div>
+                        <div class="carousel-text">
+                            <h1>Stay <span>in Amazing</span> Houses & Hotels</h1>
+                            <p></p>
+                            <div class="carousel-btn">
+                                <a class="btn custom-btn" href="">View Homes</a>
+                                <a class="btn custom-btn" href="">Book Place</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-img">
+                            <img src="/static/img/carousel-4.jpg" alt="Image">
+                        </div>
+                        <div class="carousel-text">
+                            <h1>Affordable Prices For Your <span>Best</span> Stays</h1>
+                            <p></p>
+                            <div class="carousel-btn">
+                                <a class="btn custom-btn" href="">View Homes</a>
+                                <a class="btn custom-btn" href="">Book Place</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel End -->
+        
+        
+      <!-- Team Start -->
+      <div class="team">
+        <div class="container">
+            <div class="section-header text-center">
+                <!-- <p>Our Team</p> -->
+                <h2>Homes, Hotels and Properties</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-item">
+                        <div class="team-img">
+                            <img src="/static/img/king/king.jpg" alt="Image">
+                            <div class="team-social">
+                               <a href=""><i class="fab fa-whatsapp"></i></a>
+                                <a href="#"><i class="far fa-eye"></i></a>
+                            </div>
+                        </div>
+                        <div class="team-text">
+                            <h2>Kings Apartment</h2>
+                            <p>Kilimani, Nairobi</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-item">
+                        <div class="team-img">
+                            <img src="/static/img/wellivia/wellivia.jpg" alt="Image">
+                            <div class="team-social">
+                               <a href=""><i class="fab fa-whatsapp"></i></a>
+                                <a href="#"><i class="far fa-eye"></i></a>
+                            </div>
+                        </div>
+                        <div class="team-text">
+                            <h2>Mtwapa Luxury Apartments</h2>
+                            <p>Mtwapa, Mombasa</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-item">
+                        <div class="team-img">
+                            <img src="/static/img/Samra/Samra.jpg" alt="Image">
+                            <div class="team-social">
+                               <a href=""><i class="fab fa-whatsapp"></i></a>
+                                <a href="#"><i class="far fa-eye"></i></a>
+                            </div>
+                        </div>
+                        <div class="team-text">
+                            <h2>Samra Apartment</h2>
+                            <p>Ngong, Nairobi</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-item">
+                        <div class="team-img">
+                            <img src="/static/img/Silver/silver.jpg" alt="Image">
+                            <div class="team-social">
+                               <a href=""><i class="fab fa-whatsapp"></i></a>
+                                <a href="#"><i class="far fa-eye"></i></a>
+                            </div>
+                        </div>
+                        <div class="team-text">
+                            <h2>Silver Apartment</h2>
+                            <p>Rongai, Nairobi</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+        
+<!--About-->
+{% include 'app_about.html' %}
+<!--/About-->
+        
+        
+<!--Contact-->
+{% include 'app_contact.html' %}
+<!--/Contact-->
+
+        <!-- Footer Start -->
+        {% include 'footer.html' %}
+        <!-- Footer End -->
+<!--JavaScript-->
+{% include 'js.html' %}
+<!--/JavaScript-->
+    </body>
+</html>

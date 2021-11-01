@@ -1,0 +1,24 @@
+<div class="container-fluid px-0 mx-aut">
+    {% if rooms %}
+       <table class="table">
+           <thead class="o">
+            <th>Type</th>
+            <th>Location</th>
+            <th>Person</th>
+            <th>price</th>
+            <th>Action</th>
+        </thead>
+        {% for r in rooms %}
+            <tr class="">
+            <td>{{ r.get_room_type_display }}</td>
+            <td>{{ r.hotel.location }}</td>
+            <td>{{ r.capacity }}</td>
+            <td>{{ r.price }}</td>
+            
+            <td><a href="/user/book-room?roomid={{r.id}}"><button class="btn btn-warning">Book Now</button></a></td>
+            </tr>
+        {% endfor %}
+        
+       </table> 
+    {% endif %}
+</div>

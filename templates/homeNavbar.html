@@ -1,0 +1,60 @@
+{% load static %}  
+  <!-- Nav Bar Start -->
+  <div class="navbar navbar-expand-lg bg-light navbar-light">
+    <div class="container-fluid">
+        <a href="{% url 'home' %}" class="navbar-brand">Mangaza <span>Homes</span></a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+            <div class="navbar-nav ml-auto">
+                <a href="{% url 'vacation' %}" class="nav-item nav-link active">Vacation</a>
+                
+                <!-- <div class="nav-item dropdown"> -->
+                    <!-- <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a> -->
+                    <!-- <div class="dropdown-menu">
+                        <a href="" class="dropdown-item">Vacational Stays</a>
+                        <a href="" class="dropdown-item">Buy & Rent Places</a>
+                    </div> -->
+                <!-- </div> -->
+                    {% if user.is_staff %}
+                    <a href="/staff/panel" class="nav-item nav-link active">Dashboard</a>
+                    {% elif user.is_staff == False and user.is_authenticated %}
+                    <a href="/user/bookings" class="nav-item nav-link active">My Bookings</a>
+                    
+                    
+                    {% endif %}
+                    {% if user.is_staff %}
+                    <a href="/staff/allbookings" class="nav-item nav-link active">My Bookings</a>
+                    {% endif %}                
+                    <a href="/about" class="nav-item nav-link active">About</a>
+                    <a href="/contact" class="nav-item nav-link active">Contact</a>                    
+            </div>
+            {% if user.is_authenticated %}
+                      <button class="btn btn-group bg-light" data-toggle="modal" data-target="#forlogin">
+                       Hello, {{request.user}}
+                       <a href="/logout" class="nav-link">
+                    <button class="btn btn-group bg-warning" data-toggle="modal" data-target="#forlogin">
+                        Logout
+                    </button></a>&nbsp; &nbsp;
+                    </button>
+                
+                {% else %}
+                   
+                    <a href="/user" class="nav-link">
+                    <button class="btn btn-group bg-warning font-weight-bold" data-toggle="modal" data-target="#forlogin">
+                        User Login
+                    </button></a>
+                <a href="/staff" class="nav-link">
+                    <button class="btn btn-group bg-warning font-weight-bold">
+                        Staff Login
+                    </button></a>
+                {% endif %}
+
+        </div>
+    </div>
+</div>
+<!-- Nav Bar End -->
+
+
