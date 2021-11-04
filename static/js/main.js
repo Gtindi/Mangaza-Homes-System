@@ -1,6 +1,6 @@
 (function ($) {
     "use strict";
-    
+
     // Back to top button
     $(window).scroll(function () {
         if ($(this).scrollTop() > 200) {
@@ -13,8 +13,8 @@
         $('html, body').animate({scrollTop: 0}, 1500, 'easeInOutExpo');
         return false;
     });
-    
-    
+
+
     // Sticky Navbar
     $(window).scroll(function () {
         if ($(this).scrollTop() > 0) {
@@ -23,8 +23,8 @@
             $('.navbar').removeClass('nav-sticky');
         }
     });
-    
-    
+
+
     // Dropdown on mouse hover
     $(document).ready(function () {
         function toggleNavbarMethod() {
@@ -42,7 +42,7 @@
         $(window).resize(toggleNavbarMethod);
     });
 
-    
+
     // Main carousel
     $(".carousel .owl-carousel").owlCarousel({
         autoplay: true,
@@ -54,7 +54,7 @@
         loop: true,
         nav : false
     });
-    
+
     // Modal Video
     $(document).ready(function () {
         var $videoSrc;
@@ -71,8 +71,8 @@
             $("#video").attr('src', $videoSrc);
         })
     });
-    
-    
+
+
     // Date and time picker
     $('#date').datetimepicker({
         format: 'L'
@@ -103,8 +103,8 @@
     //         }
     //     }
     // });
-    
-    
+
+
     // Related post carousel
     // $(".related-slider").owlCarousel({
     //     autoplay: true,
@@ -127,5 +127,5 @@
     //         }
     //     }
     // });
-    
+
 })(jQuery);
