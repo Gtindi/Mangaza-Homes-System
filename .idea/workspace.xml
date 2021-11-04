@@ -5,78 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="886e237e-a944-4aca-8f1e-5ad89fd7772a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel/asgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/krishna/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/krishna/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/krishna/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/krishna/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/krishna/migrations/0002_rooms.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/krishna/migrations/0003_reservation.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/krishna/migrations/0004_auto_20200807_2239.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/krishna/migrations/0005_auto_20200808_1206.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/krishna/migrations/0006_auto_20200808_1207.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/krishna/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/krishna/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/krishna/static/Admin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/krishna/static/bootstrap/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/krishna/templatetags/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/krishna/templatetags/app_tags.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/krishna/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/krishna/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticFiles/Admin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticFiles/admin/css/autocomplete.css" beforeDir="false" afterPath="$PROJECT_DIR$/staticFiles/admin/css/autocomplete.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticFiles/admin/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/staticFiles/admin/css/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticFiles/admin/css/changelists.css" beforeDir="false" afterPath="$PROJECT_DIR$/staticFiles/admin/css/changelists.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticFiles/admin/css/forms.css" beforeDir="false" afterPath="$PROJECT_DIR$/staticFiles/admin/css/forms.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticFiles/admin/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/staticFiles/admin/css/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticFiles/admin/css/nav_sidebar.css" beforeDir="false" afterPath="$PROJECT_DIR$/staticFiles/admin/css/nav_sidebar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticFiles/admin/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/staticFiles/admin/css/responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticFiles/admin/css/responsive_rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/staticFiles/admin/css/responsive_rtl.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticFiles/admin/css/rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/staticFiles/admin/css/rtl.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticFiles/admin/css/widgets.css" beforeDir="false" afterPath="$PROJECT_DIR$/staticFiles/admin/css/widgets.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticFiles/admin/js/SelectBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/staticFiles/admin/js/SelectBox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticFiles/admin/js/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/staticFiles/admin/js/actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticFiles/admin/js/admin/DateTimeShortcuts.js" beforeDir="false" afterPath="$PROJECT_DIR$/staticFiles/admin/js/admin/DateTimeShortcuts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticFiles/admin/js/admin/RelatedObjectLookups.js" beforeDir="false" afterPath="$PROJECT_DIR$/staticFiles/admin/js/admin/RelatedObjectLookups.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticFiles/admin/js/autocomplete.js" beforeDir="false" afterPath="$PROJECT_DIR$/staticFiles/admin/js/autocomplete.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticFiles/admin/js/calendar.js" beforeDir="false" afterPath="$PROJECT_DIR$/staticFiles/admin/js/calendar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticFiles/admin/js/cancel.js" beforeDir="false" afterPath="$PROJECT_DIR$/staticFiles/admin/js/cancel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticFiles/admin/js/core.js" beforeDir="false" afterPath="$PROJECT_DIR$/staticFiles/admin/js/core.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticFiles/admin/js/urlify.js" beforeDir="false" afterPath="$PROJECT_DIR$/staticFiles/admin/js/urlify.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticFiles/bootstrap/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/about.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/app_about.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/app_bkResult.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/app_booking.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/app_contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/app_headerstarter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/app_message.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/basic.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/footer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/head.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/homeNavbar.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/js.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/staff/addroom.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/staff/allbookings.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/staff/editroom.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/staff/panel.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/staff/stafflogsign.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/staff/viewroom.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/user/bookroom.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/user/mybookings.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/user/userlogsign.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/vacation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/main0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/lib/animate/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/lib/animate/animate.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/lib/easing/easing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/lib/easing/easing.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/lib/flaticon/backup.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/lib/flaticon/font/Flaticon.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/lib/flaticon/font/Flaticon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/lib/flaticon/font/Flaticon.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/lib/flaticon/font/Flaticon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/lib/flaticon/font/Flaticon.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/lib/flaticon/font/_flaticon.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/lib/flaticon/font/flaticon.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/lib/flaticon/font/flaticon.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/lib/flaticon/license/license.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/lib/owlcarousel/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/lib/owlcarousel/assets/ajax-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/lib/owlcarousel/assets/owl.carousel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/lib/owlcarousel/assets/owl.carousel.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/lib/owlcarousel/assets/owl.theme.default.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/lib/owlcarousel/assets/owl.theme.default.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/lib/owlcarousel/assets/owl.theme.green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/lib/owlcarousel/assets/owl.theme.green.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/lib/owlcarousel/assets/owl.video.play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/lib/owlcarousel/owl.carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/lib/owlcarousel/owl.carousel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/lib/tempusdominus/css/tempusdominus-bootstrap-4.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/lib/tempusdominus/js/moment-timezone.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/lib/tempusdominus/js/moment.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/lib/tempusdominus/js/tempusdominus-bootstrap-4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
