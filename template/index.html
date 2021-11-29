@@ -2,6 +2,7 @@
     {% block title %}
     {% endblock title %}
     {% block body %}
+    {% include 'head.html' %}
     {% include 'app_headerstarter.html' %}
      <!--Booking Section starts here-->
 {% include 'app_booking.html' %}
@@ -11,10 +12,13 @@
     <!--Fetched results ends here-->
 
 
-   
-    <!--Roo tables ends here-->
-
-    
+           <!---HouseView--->
+        {% include 'houseview.html' %}
+        <!---HouseView--->
+    <!--Room tables ends here-->
+    <!-- Footer Start -->
+    {% include 'footer.html' %}
+        <!-- Footer End -->
+    {% include 'js.html' %}
     {% endblock body %}
-   
    
