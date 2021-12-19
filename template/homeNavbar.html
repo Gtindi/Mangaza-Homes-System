@@ -2,7 +2,7 @@
   <!-- Nav Bar Start -->
   <div class="navbar navbar-expand-lg bg-light navbar-light">
     <div class="container-fluid">
-        <a href="{% url 'home' %}" class="navbar-brand">Mangaza <span>Homes</span></a>
+        <a href="{% url 'home' %}" class="navbar-brand" style="padding-top:20px">Mangaza <span>Homes</span></a>
         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -26,7 +26,7 @@
                     
                     {% endif %}
                     {% if user.is_staff %}
-                    <a href="/staff/allbookings" class="nav-item nav-link active">My Bookings</a>
+                    <a href="/staff/allbookings" class="nav-item nav-link active" style="font-size:15px">My Bookings</a>
                     {% endif %}                
                     <a href="/about" class="nav-item nav-link active">About</a>
                     <a href="/contact" class="nav-item nav-link active">Contact</a>                    
@@ -44,12 +44,12 @@
                    
                     <a href="/user" class="nav-link">
                     <button class="btn btn-group bg-warning font-weight-bold" data-toggle="modal" data-target="#forlogin">
-                        User Login
+                    Login
                     </button></a>
-                <a href="/staff" class="nav-link">
-                    <button class="btn btn-group bg-warning font-weight-bold">
-                        Staff Login
-                    </button></a>
+<!--                <a href="/staff" class="nav-link">-->
+<!--                    <button class="btn btn-group bg-warning font-weight-bold">-->
+<!--                        Staff Login-->
+<!--                    </button></a>-->
                 {% endif %}
 
         </div>
