@@ -9,6 +9,9 @@ import datetime
 
 
 # Create your views here.
+# properties
+def property(request):
+    return render(request,"properties/property.html")
 
 
 def vacational(request):
