@@ -1,4 +1,4 @@
-aiohttp==3.7.4
+aiohttp==3.8.1
 aiohttp-socks==0.5.3
 aiorpcX==0.18.5
 apparmor==2.13.6
